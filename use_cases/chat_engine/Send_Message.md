@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Sending a message
 
-# 1. Getting in Touch
+# 1. Sending a message
 
 ## 1.1 Brief Description
-
+Since the project is about a group chat, sending messages is one of the most essential features of this app.
+The user has the possibility to post messages to a group just as you are able to do with any other messaging service out there.
 
 ## 1.2 Mockup
 

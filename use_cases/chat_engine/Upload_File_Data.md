@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Uploading a File
 
-# 1. Getting in Touch
+# 1. Uploading a File
 
 ## 1.1 Brief Description
-
+This part is also essential, since discussions are created on a file/date or hyperlink, being able to upload/post them is the backbone of the chat
+functionality.
 
 ## 1.2 Mockup
 

@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Ending a discussion
 
-# 1. Getting in Touch
+# 1. Ending a discussion
 
 ## 1.1 Brief Description
-
+When a discussion is over, or you don't want any more comments on a certain topic, you can end the discussion, practically archiving it and only
+allowing a read mode on what was discussed so far.
 
 ## 1.2 Mockup
 

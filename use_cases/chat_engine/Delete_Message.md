@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Deleting a message
 
-# 1. Getting in Touch
+# 1. Deleting a message
 
 ## 1.1 Brief Description
-
+While there can be a lot of constructive things in a chat, sometimes there is stuff you don't need or want to outright remove for reasons.
+Therefore you can delete your own messages and if you have the appropriate role, even remove the ones of others.
 
 ## 1.2 Mockup
 

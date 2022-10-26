@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Starting a discussion
 
-# 1. Getting in Touch
+# 1. Starting a discussion
 
 ## 1.1 Brief Description
-
+The most essential part of the app is the capability for users to start discussions on files or hyperlinks that were posted inside 
+the group chat and add those files/discussions to categories that are defined by the group(admin).
 
 ## 1.2 Mockup
 

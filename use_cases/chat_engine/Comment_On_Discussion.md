@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Commenting a discussion
 
-# 1. Getting in Touch
+# 1. Commenting a discussion
 
 ## 1.1 Brief Description
-
+As stated above, the ability to write comments on a post inside the existing chat allows for more focused discussions on said topic and as well
+the option to have all of it in one place, accessable through the categorie storage.
 
 ## 1.2 Mockup
 

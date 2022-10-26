@@ -1,9 +1,10 @@
-# Use-Case Specification: Getting in Touch
+# Use-Case Specification: Clearing a message
 
-# 1. Getting in Touch
+# 1. Clearing a message
 
 ## 1.1 Brief Description
-
+This is a functionality that most modern chat apps come with so we wanted to provide it as well. It should only be possible to clear
+the entire chat with the appropriate role to avoid any misuse of the functionality. 
 
 ## 1.2 Mockup
 

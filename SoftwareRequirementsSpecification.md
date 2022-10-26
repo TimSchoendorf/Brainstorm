@@ -61,28 +61,37 @@ The technology we use is:
 
 tbd
 
-## 3. Specific Requirements
-
-### 3.1 Functionality
-
 #### 3.1.1 Send Message
+Since the project is about a group chat, sending messages is one of the most essential features of this app.
+The user has the possibility to post messages to a group just as you are able to do with any other messaging service out there.
 [Sending a message](./use_cases/chat_engine/Send_Message.md)
 
 #### 3.1.2 Delete Message
-[Sending a message](./use_cases/chat_engine/Delete_Message.md)
+While there can be a lot of constructive things in a chat, sometimes there is stuff you don't need or want to outright remove for reasons.
+Therefore you can delete your own messages and if you have the appropriate role, even remove the ones of others.
+[Deleting a message](./use_cases/chat_engine/Delete_Message.md)
 
 #### 3.1.3 Clear Messages
-[Sending a message](./use_cases/chat_engine/Clear_Messages.md)
+This is a functionality that most modern chat apps come with so we wanted to provide it as well. It should only be possible to clear
+the entire chat with the appropriate role to avoid any misuse of the functionality. 
+[Clearing a message](./use_cases/chat_engine/Clear_Messages.md)
 
 #### 3.1.4 Start Discussion
-[Sending a message](./use_cases/chat_engine/Start_Discussion.md)
+The most essential part of the app is the capability for users to start discussions on files or hyperlinks that were posted inside 
+the group chat and add those files/discussions to categories that are defined by the group(admin).
+[Starting a discussion](./use_cases/chat_engine/Start_Discussion.md)
 
 #### 3.1.5  End Discussion
-[Sending a message](./use_cases/chat_engine/End_Discussion.md)
+When a discussion is over, or you don't want any more comments on a certain topic, you can end the discussion, practically archiving it and only
+allowing a read mode on what was discussed so far.
+[Ending a discussion](./use_cases/chat_engine/End_Discussion.md)
 
 #### 3.1.6 Comment on Discussion
-[Sending a message](./use_cases/chat_engine/Comment_On_Discussion.md)
+As stated above, the ability to write comments on a post inside the existing chat allows for more focused discussions on said topic and as well
+the option to have all of it in one place, accessable through the categorie storage.
+[Commenting a discussion](./use_cases/chat_engine/Comment_On_Discussion.md)
 
 #### 3.1.7 Upload File/Data
-[Sending a message](./use_cases/chat_engine/Upload_File_Data.md)
-
+This part is also essential, since discussions are created on a file/date or hyperlink, being able to upload/post them is the backbone of the chat
+functionality.
+[Uploading a File](./use_cases/chat_engine/Upload_File_Data.md)
