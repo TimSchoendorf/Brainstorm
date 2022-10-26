@@ -37,5 +37,5 @@ n/a
 
 ### 5.1 Save changes / Sync with server
 
-# 6. Function Points
-n/a
+# 6. Effort Estimation
+2
