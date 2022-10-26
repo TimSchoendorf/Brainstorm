@@ -30,9 +30,12 @@ n/a
 
 
 # 4. Preconditions
-
+- The user has an account
+- The user created/joined a group and is the admin of the group
+- There is at least one message in the chat
 
 # 5. Postconditions
+- The messages that were stored locally were deleted and can not be shown anymore
 
 
 ### 5.1 Save changes / Sync with server

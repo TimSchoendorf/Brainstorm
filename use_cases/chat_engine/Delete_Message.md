@@ -30,9 +30,12 @@ n/a
 
 
 # 4. Preconditions
-
+- The user has an account
+- The user created/joined a group
+- The user has written a message to the group chat or a discussion
 
 # 5. Postconditions
+- The chosen message was deleted from the chat 
 
 
 ### 5.1 Save changes / Sync with server

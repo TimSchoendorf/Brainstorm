@@ -30,9 +30,11 @@ n/a
 
 
 # 4. Preconditions
-
+- The User has an account
+- The User created/joined a group
 
 # 5. Postconditions
+- The file was added to the storage area and can be interacted with
 
 
 ### 5.1 Save changes / Sync with server

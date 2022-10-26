@@ -30,9 +30,12 @@ n/a
 
 
 # 4. Preconditions
-
+- The User has an account
+- The User created/joined a group
+- A file got uploaded in the storage area and there is an ongoing discussion on this file
 
 # 5. Postconditions
+- A new discussion is added to the chosen file and users can comment and interact with it
 
 
 ### 5.1 Save changes / Sync with server
