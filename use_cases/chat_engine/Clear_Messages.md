@@ -7,7 +7,7 @@ This is a functionality that most modern chat apps come with so we wanted to pro
 the entire chat with the appropriate role to avoid any misuse of the functionality. 
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/Clear%20Chat.PNG)
 
 ## 1.3 Screenshots
 

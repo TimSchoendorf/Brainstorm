@@ -7,7 +7,7 @@ As stated above, the ability to write comments on a post inside the existing cha
 the option to have all of it in one place, accessable through the categorie storage.
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/Comment%20Discussion.PNG)
 
 ## 1.3 Screenshots
 

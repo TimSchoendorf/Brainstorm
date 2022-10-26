@@ -7,7 +7,7 @@ Since the project is about a group chat, sending messages is one of the most ess
 The user has the possibility to post messages to a group just as you are able to do with any other messaging service out there.
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/Send%20Message.PNG)
 
 ## 1.3 Screenshots
 

@@ -7,7 +7,7 @@ When a discussion is over, or you don't want any more comments on a certain topi
 allowing a read mode on what was discussed so far.
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/End%20Discussion.PNG)
 
 ## 1.3 Screenshots
 

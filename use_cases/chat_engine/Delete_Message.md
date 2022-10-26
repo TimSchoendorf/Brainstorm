@@ -7,7 +7,7 @@ While there can be a lot of constructive things in a chat, sometimes there is st
 Therefore you can delete your own messages and if you have the appropriate role, even remove the ones of others.
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/Delete%20Message.PNG)
 
 ## 1.3 Screenshots
 

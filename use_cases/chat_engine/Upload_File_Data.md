@@ -7,7 +7,7 @@ This part is also essential, since discussions are created on a file/date or hyp
 functionality.
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/Upload%20File.PNG)
 
 ## 1.3 Screenshots
 

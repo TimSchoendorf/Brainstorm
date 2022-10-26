@@ -7,7 +7,7 @@ The most essential part of the app is the capability for users to start discussi
 the group chat and add those files/discussions to categories that are defined by the group(admin).
 
 ## 1.2 Mockup
-
+![OUCD](./Mock_ups/Add%20Discussion.PNG)
 
 ## 1.3 Screenshots
 
