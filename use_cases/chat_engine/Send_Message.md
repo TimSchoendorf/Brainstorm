@@ -30,9 +30,11 @@ n/a
 
 
 # 4. Preconditions
-
+- The user has an Account
+- The user created/joined a group
 
 # 5. Postconditions
+- The message is added to the message history
 
 
 ### 5.1 Save changes / Sync with server
