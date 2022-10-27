@@ -52,7 +52,7 @@ Akin to existing apps like Microsoft Teams, which provide chat and data storage 
 
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCaseDiagramPB.png)
+![OUCD](./use_cases/UseCaseDiagramPB.png)
 
 - Colors - tbd
 
