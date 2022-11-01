@@ -6,4 +6,4 @@
 
 ### 2. [Software Requirements Specification](./SoftwareRequirementsSpecification.md)
 
-### 3. Use-Case Realization Specification - tbd.
+### 3. [Use-Case Realization Specification](./UseCaseRealizationSpecification.md)

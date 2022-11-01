@@ -30,7 +30,7 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Brainstorm". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Brainstorm". It includes an overview about this project, its vision and detailed information about the planned features and boundary conditions of the development process.
 
 ### 1.2 Scope
 The project is going to be realized as an Android, IOS and WebApp.
@@ -38,7 +38,10 @@ The project is going to be realized as an Android, IOS and WebApp.
 Actors of this App can be users or group-administrators. Whereby users can be bestoved with roles created and managed by the admin, which grant them with more possibilities to interact with the App.
 
 Planned Subsystems are:
-* tbd
+- User Management
+- Storage Warehouse
+- User Experience
+- Apps
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -73,54 +76,109 @@ Akin to existing apps like Microsoft Teams, which provide chat and data storage 
 ### 2.3 Technology Stack
 The technology we use is:
 
-tbd
+Backend:
+- Spring Boot
+- AppWrite
+- Keycloak
+- Maven
+- H2 Database (tbd)
 
+Frontend:
+- Flutter
+- Gradle
+
+IDE:
+- Eclipse/IntelliJ
+- Visual Studio Code
+- Android Studio
+
+Project Management:
+- JIRA
+- GitHub
+- WhatsApp
+
+Deployment:
+- docker
+- tbd.
+
+Testing:
+- JUnit and Mockito
+- package:test (Dart)
+- tbd.
 
 ## 3. Specific Requirements
 
 ### 3.1 Functionality
 
-#### 3.1.1 Send Message
+#### 3.1.1 Account
+
+#### 3.1.2 Storage
+
+##### 3.1.2.1 Create Category
+As to be expected of any data saving service, there is the possibility to save the files in coresponding categories, which will behave much like folders would under a normal OS. Like a folder this categories can be created with a name and additionally with a description.
+
+[Creating a Category](./use_cases/storage_warehouse/Create_Category.md)
+
+##### 3.1.2.2 Delete Category
+When a category is no longer needed it should be deleted. With this the to delete category will disappear from the category list and the database. In the case of files still existing in this category, they will be moved to the enclosing category or the root.
+
+[Deleting a Category](./use_cases/storage_warehouse/Delete_Category.md)
+
+##### 3.1.2.3 Start Discussion
+Additionally to the chat functionality it is allowed to start up a discussion connected to one file. This will be an in itself contained discussion, which can be viewed as such and edited through a new tab in the chat. This enables pointed, data driven conversations.
+
+[Starting a Discussion](./use_cases/storage_warehouse/Start_Discussion.md)
+
+##### 3.1.2.4 Resume Discussion
+If a discussion has been ended but there are still points one person wants to bring up or there is the need to reevaluate the discussion as a whole, there should be the possibility to "revive" it. The status is updated and it is shown again.
+
+[Resuming a Discussion](./use_cases/storage_warehouse/Resume_Discussion.md)
+
+#### 3.1.3 Chat
+
+##### 3.1.3.1 Send Message
 Since the project is about a group chat, sending messages is one of the most essential features of this app.
 The user has the possibility to post messages to a group just as you are able to do with any other messaging service out there.
 
 [Sending a message](./use_cases/chat_engine/Send_Message.md)
 
-#### 3.1.2 Delete Message
+##### 3.1.3.2 Delete Message
 While there can be a lot of constructive things in a chat, sometimes there is stuff you don't need or want to outright remove for reasons.
 Therefore you can delete your own messages and if you have the appropriate role, even remove the ones of others.
 
 [Deleting a message](./use_cases/chat_engine/Delete_Message.md)
 
-#### 3.1.3 Clear Messages
+##### 3.1.3.3 Clear Messages
 This is a functionality that most modern chat apps come with so we wanted to provide it as well. It should only be possible to clear
 the entire chat with the appropriate role to avoid any misuse of the functionality. 
 
 [Clearing a message](./use_cases/chat_engine/Clear_Messages.md)
 
-#### 3.1.4 Start Discussion
+##### 3.1.3.4 Start Discussion
 The most essential part of the app is the capability for users to start discussions on files or hyperlinks that were posted inside 
 the group chat and add those files/discussions to categories that are defined by the group(admin).
 
 [Starting a discussion](./use_cases/chat_engine/Start_Discussion.md)
 
-#### 3.1.5 End Discussion
+##### 3.1.3.5 End Discussion
 When a discussion is over, or you don't want any more comments on a certain topic, you can end the discussion, practically archiving it and only
 allowing a read mode on what was discussed so far.
 
 [Ending a discussion](./use_cases/chat_engine/End_Discussion.md)
 
-#### 3.1.6 Comment on Discussion
+##### 3.1.3.6 Comment on Discussion
 As stated above, the ability to write comments on a post inside the existing chat allows for more focused discussions on said topic and as well
 the option to have all of it in one place, accessable through the categorie storage.
 
 [Commenting a discussion](./use_cases/chat_engine/Comment_On_Discussion.md)
 
-#### 3.1.7 Upload File/Data
+##### 3.1.3.7 Upload File/Data
 This part is also essential, since discussions are created on a file/date or hyperlink, being able to upload/post them is the backbone of the chat
 functionality.
 
 [Uploading a File](./use_cases/chat_engine/Upload_File_Data.md)
+
+#### 3.1.4 Group
 
 ### 3.2 Usability
 tbd
