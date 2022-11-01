@@ -1,4 +1,4 @@
-# Project Brainstorm - Software  Requirements Specification
+# Project Brainstorm - Software Requirements Specification
 
 ## Table of Contents
 - [Table of contents](#table-of-contents)
@@ -12,6 +12,20 @@
     - [Vision](#21-vision)
     - [Use Case Diagram](#22-use-case-diagram)
 	- [Technology Stack](#23-technology-stack)
+- [Specific Requirements](#3-specific-requirements)
+    - [Functionality](#31-functionality)
+    - [Usability](#32-usability)
+    - [Reliability](#33-reliability)
+    - [Performance](#34-performance)
+    - [Supportability](#35-supportability)
+    - [Design Constraints](#36-design-constraints)
+    - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
+    - [Purchased Components](#purchased-components)
+    - [Interfaces](#39-interfaces)
+    - [Licensing Requirements](#310-licensing-requirements)
+    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
+    - [Applicable Standards](#312-applicable-standards)
+- [Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
 
@@ -61,6 +75,11 @@ The technology we use is:
 
 tbd
 
+
+## 3. Specific Requirements
+
+### 3.1 Functionality
+
 #### 3.1.1 Send Message
 Since the project is about a group chat, sending messages is one of the most essential features of this app.
 The user has the possibility to post messages to a group just as you are able to do with any other messaging service out there.
@@ -85,7 +104,7 @@ the group chat and add those files/discussions to categories that are defined by
 
 [Starting a discussion](./use_cases/chat_engine/Start_Discussion.md)
 
-#### 3.1.5  End Discussion
+#### 3.1.5 End Discussion
 When a discussion is over, or you don't want any more comments on a certain topic, you can end the discussion, practically archiving it and only
 allowing a read mode on what was discussed so far.
 
@@ -102,3 +121,54 @@ This part is also essential, since discussions are created on a file/date or hyp
 functionality.
 
 [Uploading a File](./use_cases/chat_engine/Upload_File_Data.md)
+
+### 3.2 Usability
+tbd
+
+#### 3.2.1 tbd
+
+### 3.3 Reliability
+
+#### 3.3.1 tbd
+
+### 3.4 Perfomance
+
+#### 3.4.1 tbd
+
+### 3.5 Supportability
+
+#### 3.5.1 tbd
+
+### 3.6 Design Constraints
+tbd
+
+### 3.7 On-line User Documentation and Help System Requirements
+tbd
+
+### 3.8 Purchased Components
+tbd
+
+### 3.9 Interfaces
+
+#### 3.9.1 User Interfaces
+tbd
+
+#### 3.9.2 Hardware Interfaces
+(n/a)
+
+#### 3.9.3 Software Interfaces
+tbd
+
+#### 3.9.4 Communication Interfaces
+tbd
+
+### 3.10 Licensing Requirements
+
+### 3.11 Legal, Copyright, and Other Notices
+tbd
+
+### 3.12 Applicable Standards
+tbd
+
+## 4. Supporting Information
+tbd
