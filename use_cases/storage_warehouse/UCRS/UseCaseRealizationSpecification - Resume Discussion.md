@@ -1,4 +1,4 @@
-# Project Brainstorm - Use-Case Realization Specification: Start Discussion
+# Project Brainstorm - Use-Case Realization Specification: Resume Discussion
 
 ## Table of Contents
 - [Table of contents](#table-of-contents)
