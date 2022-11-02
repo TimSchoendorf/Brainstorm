@@ -18,7 +18,7 @@ the group chat and add those files/discussions to categories that are defined by
 
 
 ### Activity Diagram
-
+![OUCD](./Activity_Diagrams/Start_Discussion.png)
 
 ### .feature File
 n/a
