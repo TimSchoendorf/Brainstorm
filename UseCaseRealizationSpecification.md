@@ -29,7 +29,7 @@
 
 
 
-# Project Brainstorm - Use-Case Realization Specification: Start Discussio
+# Project Brainstorm - Use-Case Realization Specification: Start Discussion
 
 ## Table of Contents
 - [Table of contents](#table-of-contents)
