@@ -48,11 +48,19 @@
 
 ### 1.2 Scope: User have to be able to Start discussions
 
-### 1.4 References: https://github.com/TimSchoendorf/Brainstorm
+### 1.4 References: https://github.com/TimSchoendorf/Brainstorm https://lucid.app/lucidchart/8c20a29a-c14a-4636-99ad-d1e699e8c2dc/edit?beaconFlowId=56ED9D37FA710074&invitationId=inv_11a39e78-2022-49cb-b6ed-8c06f11a7ce2&page=0_0#
 
 ### 1.5 Overview: This Use-Case-Realization Specification will contain a sequence diagram, explaining the internal structure and flow during creation of a discussion.
 
 ## 2. Flow of Events - Design
 To start a discussion you have to input a name for the discussion that is not already used. If this requirement is met, the discussion will be created and it can be seen in the storage as well as the newest message in the chat. From there you can open the discussion and talk in a chat exclusively for the discussion.
 
-## 3. Derived Requirements
+
+![Start Discussion](https://user-images.githubusercontent.com/115456327/199520375-cea18ed5-eff0-46fd-99ae-85c05ec0eabc.png)
+
+
+
+
+
+
+
