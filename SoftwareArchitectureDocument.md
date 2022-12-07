@@ -54,7 +54,7 @@ Usability also means that no apparent faults in the system should exist.
 ### 5.2 Architectural Significant Design Packages
 
 ## 6. Process View
-load file:
+download file:
 ![Screenshot 2022-12-07 201442](https://user-images.githubusercontent.com/115456327/206276646-4067a6ba-9f15-40d5-833c-39b66dec35a1.jpg)
 upload file:
 ![Screenshot 2022-12-07 200556](https://user-images.githubusercontent.com/115456327/206276638-d879e239-c835-40df-9a13-3d5a56fcc69d.jpg)
