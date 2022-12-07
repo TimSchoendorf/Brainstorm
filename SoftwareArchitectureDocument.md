@@ -39,6 +39,9 @@
 ## 2. Architectural Representation
 
 ## 3. Architectural Goals and Contstraints
+Brainstorm's most important architectural goal is to offer a good usability to the users, as we want the user to have a pleasant and enjoyable time while using the application.
+Our way to accomplish this goal is to have a good looking and feeling user interface as well as linking it with other architectural goals like availabilty on different devices and security.
+Usability also means that no apparent faults in the system should exist.
 
 ## 4. Use-Case View
 
