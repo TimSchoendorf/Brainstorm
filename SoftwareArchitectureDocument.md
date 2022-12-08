@@ -54,9 +54,10 @@ Usability also means that no apparent faults in the system should exist.
 ### 5.2 Architectural Significant Design Packages
 
 ## 6. Process View
-download file:
+### 6.1 Download File:
 ![Screenshot 2022-12-07 201442](https://user-images.githubusercontent.com/115456327/206276646-4067a6ba-9f15-40d5-833c-39b66dec35a1.jpg)
-upload file:
+
+### 6.2 Upload File:
 ![Screenshot 2022-12-07 200556](https://user-images.githubusercontent.com/115456327/206276638-d879e239-c835-40df-9a13-3d5a56fcc69d.jpg)
 
 
@@ -74,3 +75,5 @@ upload file:
 ## 10. Size and Performance
 
 ## 11. Quality
+In order to be able to guarantee quality according to our usability standards, we use Flutter for our frontend. This gives us the opportunity to develop for Android, IOS, PC applications and web applications and thus make our app usable on all currently popular devices.
+In addition, we develop according to the four-eyes principle in order to quickly identify possible errors and thus not to endanger the usability of our program.
