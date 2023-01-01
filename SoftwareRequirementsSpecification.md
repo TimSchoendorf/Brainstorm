@@ -57,7 +57,7 @@ Planned Subsystems are:
 
 | Title                                                                                             | Date       | Publishing organization   |
 | -------------------------------------------------------------------                               |:----------:| ------------------------- |
-| [Project Brainstorm Blog](https://github.com/TimSchoendorf/Brainstorm/discussions/categories/blog)| 18.10.2018 | Preoject Brainstorm Team  |
+| [Project Brainstorm Blog](https://github.com/TimSchoendorf/Brainstorm/discussions/categories/blog)| 18.10.2022 | Preoject Brainstorm Team  |
 
 ### 1.5 Overview
 The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
@@ -181,52 +181,57 @@ functionality.
 #### 3.1.4 Group
 
 ### 3.2 Usability
-tbd
-
-#### 3.2.1 tbd
+Due to local caching the chats can allways be accessed even if the users are offline.
 
 ### 3.3 Reliability
+The brainstorm application can be accessed with IOS, Android, Windows and with a web browser, so that every team can use and rely on it. 
 
-#### 3.3.1 tbd
-
-### 3.4 Perfomance
-
-#### 3.4.1 tbd
+### 3.4 Performance
+In general it can be said that the speed of uploading messages or files depends a lot on the number of requests to the server. But for our usecase of a small number of users the performance should meet the requirement standards.
 
 ### 3.5 Supportability
-
-#### 3.5.1 tbd
+However, to prevent errors early on, we use unit tests. Since our user group will be very small and manageable, we rely on personal contact if additional errors should occur.
 
 ### 3.6 Design Constraints
-tbd
+Back-End and Front-End will be kept separately. While the frontend is completly constructed with flutter, the backend is made with supabase, which provides a certain security level. 
 
 ### 3.7 On-line User Documentation and Help System Requirements
-tbd
+The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will make a FAQ and and some intuitve image tutorials to the most important functions and workflows. 
 
 ### 3.8 Purchased Components
 tbd
 
 ### 3.9 Interfaces
-
 #### 3.9.1 User Interfaces
-tbd
+The User interfaces we will implement:
+- Login Page (Create a new account or log in)
+- Overview Page (See all of your group chats)
+- Setting Page (Manage your account)
+- Chat Page (Read and write messages)
+- Storage Page (Search, upload, download or delete file of the group storage)
 
 #### 3.9.2 Hardware Interfaces
 (n/a)
 
 #### 3.9.3 Software Interfaces
-tbd
+The application will be available as a ios, android and windows application and website.
 
 #### 3.9.4 Communication Interfaces
-tbd
+The users can communicate with applications and the webpage using the http/https protocol.
 
 ### 3.10 Licensing Requirements
+tbd
 
 ### 3.11 Legal, Copyright, and Other Notices
-tbd
+We do not take responsibility for any incorrect data or errors in the application.
 
 ### 3.12 Applicable Standards
-tbd
+The development will follow the clean common code standards and naming conventions.
 
 ## 4. Supporting Information
-tbd
+For any further information you can contact the Brainstornm Team via Discord. The Team Members are:
+- Jonas Nuber
+- Magnus Henning
+- Moritz Müller
+- Tim Schöndorf
+- Tim Wortmann
