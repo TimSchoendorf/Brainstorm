@@ -71,7 +71,7 @@ Akin to existing apps like Microsoft Teams, which provide chat and data storage 
 
 ![OUCD](./use_cases/UseCaseDiagramPB.png)
 
-- Colors - tbd
+- Colors - blue/white
 
 ### 2.3 Technology Stack
 The technology we use is:
@@ -199,7 +199,7 @@ Back-End and Front-End will be kept separately. While the frontend is completly 
 The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will make a FAQ and and some intuitve image tutorials to the most important functions and workflows. 
 
 ### 3.8 Purchased Components
-tbd
+none
 
 ### 3.9 Interfaces
 #### 3.9.1 User Interfaces
@@ -211,7 +211,7 @@ The User interfaces we will implement:
 - Storage Page (Search, upload, download or delete file of the group storage)
 
 #### 3.9.2 Hardware Interfaces
-(n/a)
+none
 
 #### 3.9.3 Software Interfaces
 The application will be available as a ios, android and windows application and website.
@@ -220,7 +220,7 @@ The application will be available as a ios, android and windows application and 
 The users can communicate with applications and the webpage using the http/https protocol.
 
 ### 3.10 Licensing Requirements
-tbd
+none (since its a non commercial prototype)
 
 ### 3.11 Legal, Copyright, and Other Notices
 We do not take responsibility for any incorrect data or errors in the application.
