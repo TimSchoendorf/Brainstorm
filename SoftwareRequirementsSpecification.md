@@ -77,11 +77,7 @@ Akin to existing apps like Microsoft Teams, which provide chat and data storage 
 The technology we use is:
 
 Backend:
-- Spring Boot
-- AppWrite
-- Keycloak
-- Maven
-- H2 Database (tbd)
+- Supabase
 
 Frontend:
 - Flutter
@@ -98,13 +94,14 @@ Project Management:
 - WhatsApp
 
 Deployment:
-- docker
-- tbd.
+- Docker
+- Strato Virtual Server
+- Nginx Web Server
 
 Testing:
 - JUnit and Mockito
 - package:test (Dart)
-- tbd.
+- Supabase CLI (integretated DB tests, need to be written but executed automatically when run)
 
 ## 3. Specific Requirements
 
