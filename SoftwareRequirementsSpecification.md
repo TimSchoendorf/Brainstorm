@@ -195,7 +195,7 @@ However, to prevent errors early on, we use unit tests. Since our user group wil
 ### 3.6 Design Constraints
 Back-End and Front-End will be kept separately. While the frontend is completly constructed with flutter, the backend is made with supabase, which provides a certain security level. 
 
-### 3.7 On-line User Documentation and Help System Requirements
+### 3.7 Online User Documentation and Help System Requirements
 The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will make a FAQ and and some intuitve image tutorials to the most important functions and workflows. 
 
 ### 3.8 Purchased Components
