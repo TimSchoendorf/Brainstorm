@@ -11,4 +11,4 @@
     Tim Wortmann
 
 
-### 2. [Software Requirements Specification](./SoftwareRequirementsSpecification.md)
+### 2. Links: https://github.com/TimSchoendorf/Brainstorm/discussions/26
